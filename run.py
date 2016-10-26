@@ -121,4 +121,7 @@ def naive_next_pos(measurement, OTHER = None):
 test_target = robot(2.1, 4.3, 0.5, 2*pi / 34.0, 1.5)
 test_target.set_noise(0.0, 0.0, 0.0)
 
-demo_grading(naive_next_pos, test_target)
+print test_target.sense()
+
+
+#demo_grading(naive_next_pos, test_target)
